@@ -9,24 +9,15 @@
   imports = [ # Import modular .nix files.
     ./audacity/audacity.nix
     ./bitwarden/bitwarden.nix
-    ./element-desktop/element-desktop.nix
     ./filezilla/filezilla.nix
     ./geany/geany.nix
-    ./gimp/gimp.nix
     ./git/git.nix
     ./htop/htop.nix
-    ./nano/nano.nix
-    ./inkscape/inkscape.nix
     ./librewolf/librewolf.nix
-    ./libreoffice/libreoffice.nix
+    ./nano/nano.nix
     ./onionshare/onionshare.nix
-    ./webcord/webcord.nix
-    ./thunderbird/thunderbird.nix
-    ./tor/tor.nix
     ./qbittorrent/qbittorrent.nix
-    ./wine/wine.nix
-    ./vscode/vscode.nix
-    ./signal-desktop/signal-desktop.nix
+    ./tor/tor.nix
     ./xdg/xdg.nix
     ./zsh/zsh.nix
   ];
