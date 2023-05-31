@@ -9,6 +9,7 @@
   imports = [ # Import modular .nix files.
     ./audacity/audacity.nix
     ./bitwarden/bitwarden.nix
+    ./blender/blender.nix
     ./element-desktop/element-desktop.nix
     ./filezilla/filezilla.nix
     ./geany/geany.nix
