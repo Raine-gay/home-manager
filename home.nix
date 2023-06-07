@@ -10,6 +10,7 @@
     ./audacity/audacity.nix
     ./bitwarden/bitwarden.nix
     ./blender/blender.nix
+    ./bottles/bottles.nix
     ./element-desktop/element-desktop.nix
     ./filezilla/filezilla.nix
     ./geany/geany.nix
