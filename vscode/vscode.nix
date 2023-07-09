@@ -6,7 +6,7 @@
     package = pkgs.vscodium; # Switch to vscodium.
 
     userSettings = {
-      "workbench.editor.labelFormat": "short";
+      "workbench.editor.labelFormat" = "short";
     };
   };
 }
