@@ -3,7 +3,7 @@
 {
   programs.zsh = {
     enable = true; # Enable zsh.
-    enableSyntaxHighlighting = true; # Enable zsh syntax highlighting.
+    syntaxHighlighting.enable = true; # Enable zsh syntax highlighting.
 
     oh-my-zsh = {
       enable = true; # Enable the oh-my-zsh framework.
