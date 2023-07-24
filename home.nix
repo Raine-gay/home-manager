@@ -7,6 +7,8 @@
   home.stateVersion = "23.05";
   
   imports = [ # Import modular .nix files.
+    ./_machine-specific/_machine-specific.nix
+
     ./audacity/audacity.nix
     ./bitwarden/bitwarden.nix
     ./blender/blender.nix
