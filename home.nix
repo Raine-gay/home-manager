@@ -18,9 +18,11 @@
     ./element-desktop/element-desktop.nix
     ./filezilla/filezilla.nix
     ./geany/geany.nix
+    ./gimp/gimp.nix
     ./git/git.nix
     ./htop/htop.nix
     ./inkscape/inkscape.nix
+    ./libreoffice/libreoffice.nix
     ./librewolf/librewolf.nix
     ./nano/nano.nix
     ./obs-studio/obs-studio.nix
