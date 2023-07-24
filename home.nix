@@ -1,8 +1,9 @@
 { config, ... }:
 
 {
-  home.username = "arc";
-  home.homeDirectory = "/home/arc";
+  # Get the username and directory from the enviroment variables.
+  home.username = builtins.getEnv"USER";
+  home.homeDirectory = builtins.getEnv"HOME";
 
   home.stateVersion = "23.05";
   
