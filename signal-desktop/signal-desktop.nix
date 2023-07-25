@@ -9,9 +9,8 @@
     desktopEntries = {
       signal-desktop = {
         name = "Signal";
-        exec = "signal-desktop --no-sandbox --use-system-tray %U";
+        exec = "signal-desktop --no-sandbox --use-tray-icon %U";
         terminal = false;
-        #categories = [ "network" ];
       };
     };
   };
