@@ -9,7 +9,7 @@
     desktopEntries = {
       signal-desktop = {
         name = "Signal";
-        exec = "signal-desktop --no-sandbox --use-tray-icon %U";
+        exec = "${pkgs.signal-desktop}/bin/signal-desktop --no-sandbox --use-tray-icon %U";
         terminal = false;
       };
     };
