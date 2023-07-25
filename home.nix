@@ -13,7 +13,7 @@
     ./audacity/audacity.nix
     ./bitwarden/bitwarden.nix
     ./blender/blender.nix
-    ./bottles/bottles.nix
+    #./bottles/bottles.nix
     ./dbeaver/dbeaver.nix
     ./element-desktop/element-desktop.nix
     ./filezilla/filezilla.nix
@@ -34,7 +34,7 @@
     ./visual-studio-code/visual-studio-code.nix
     ./webcord/webcord.nix
     ./wget/wget.nix
-    ./wine/wine.nix
+    #./wine/wine.nix
     ./xdg/xdg.nix
     ./zsh/zsh.nix
   ];
