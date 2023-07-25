@@ -33,6 +33,7 @@
     ./tor/tor.nix
     ./visual-studio-code/visual-studio-code.nix
     ./webcord/webcord.nix
+    ./wget/wget.nix
     ./wine/wine.nix
     ./xdg/xdg.nix
     ./zsh/zsh.nix
