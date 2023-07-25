@@ -13,6 +13,6 @@
         terminal = false;
         categories = [ "Internet" ];
       };
-    }
+    };
   };
 }
