@@ -11,7 +11,7 @@
         name = "Signal";
         exec = "signal-desktop --no-sandbox --use-system-tray %U";
         terminal = false;
-        categories = [ "Internet" ];
+        categories = [ "internet" ];
       };
     };
   };
