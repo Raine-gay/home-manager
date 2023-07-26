@@ -11,7 +11,7 @@
         name = "Onionshare";
         exec = "onionshare %U";
         terminal = false;
-        icon = "${builtins.getEnv"USER"}/.config/home-manager/onionshare/logo.png";
+        icon = "${pkgs.onionshare-gui}/lib/python3.10/site-packages/onionshare/resources/onionshare-32.png";
       };
     };
   };
