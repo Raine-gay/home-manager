@@ -22,7 +22,7 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
     
     echo
     echo "Collecting garbage:"
-    nix-collect-garbage
+    nix-collect-garbage -d
     echo
     echo "System update complete."
 }
