@@ -27,6 +27,7 @@
     ./onionshare/onionshare.nix
     ./qbittorrent/qbittorrent.nix
     ./signal-desktop/signal-desktop.nix
+    ./sublime-merge/sublime-merge.nix
     ./thunderbird/thunderbird.nix
     ./tor/tor.nix
     ./visual-studio-code/visual-studio-code.nix
