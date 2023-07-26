@@ -3,9 +3,6 @@
 {
   home.packages = [
     pkgs.onionshare-gui # Enables onionshare.
-
-    pkgs.python310Packages.gevent-socketio  # Missing dependancies for onionshare.
-    pkgs.python310Packages.gevent-websocket # Somebody fucked up and the PR to fix it ain't approved.
   ];
 
   xdg = {
