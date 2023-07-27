@@ -12,7 +12,7 @@
 
     ./audacity/audacity.nix
     ./bitwarden/bitwarden.nix
-    ./blender/blender.nix
+    #./blender/blender.nix # Blender is fucked due to some X window shenanigans. 
     ./dbeaver/dbeaver.nix
     ./element-desktop/element-desktop.nix
     ./filezilla/filezilla.nix
