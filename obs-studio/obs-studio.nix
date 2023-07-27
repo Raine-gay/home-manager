@@ -8,9 +8,10 @@
   xdg = {
     desktopEntries = {
       obs-studio = {
-        name = "Obs";
+        name = "OBS Studio";
         exec = "nixGL obs %U";
         terminal = false;
+        icon = "${pkgs.obs-studio}/share/icons/hicolor/128x128/apps/com.obsproject.Studio.png";
       };
     };
   };
