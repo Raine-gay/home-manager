@@ -9,6 +9,7 @@
     desktopEntries = {
       signal-desktop = {
         name = "Signal";
+        comment = "Secure messaging service";
         exec = "${pkgs.signal-desktop}/bin/signal-desktop --no-sandbox --use-tray-icon %U";
         terminal = false;
         icon = "${pkgs.signal-desktop}/share/icons/hicolor/48x48/apps/signal-desktop.png";

@@ -20,6 +20,7 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
         echo
         pushd $HOME/.config/home-manager/
         git pull
+        popd
         echo
         home-manager switch
     fi
