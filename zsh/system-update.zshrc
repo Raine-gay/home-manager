@@ -2,7 +2,9 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
 
     echo 
     if read -q "choice?Update base system: y/n "; then
+        echo
         sudo pacman -Syu
+        echo
     fi
           
     echo
