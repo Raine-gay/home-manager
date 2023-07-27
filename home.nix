@@ -24,6 +24,7 @@
     ./libreoffice/libreoffice.nix
     ./librewolf/librewolf.nix
     ./nano/nano.nix
+    ./obs-studio/obs-studio.nix
     ./onionshare/onionshare.nix
     ./qbittorrent/qbittorrent.nix
     ./signal-desktop/signal-desktop.nix
