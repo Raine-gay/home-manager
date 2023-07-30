@@ -30,7 +30,7 @@
     ./sublime-merge/sublime-merge.nix
     ./thunderbird/thunderbird.nix
     ./tor/tor.nix
-    ./ultimaker-cura/ultimaker-cura.nix
+    #./ultimaker-cura/ultimaker-cura.nix
     ./visual-studio-code/visual-studio-code.nix
     ./webcord/webcord.nix
     ./wget/wget.nix
