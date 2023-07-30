@@ -34,7 +34,7 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
     echo "System update complete."
 }
 
-system-update-auto() { # A simple ZSH script to update pacman, nix-channels, & home-manager. This one requires no human input.
+system-update-auto() { # A simple ZSH script to update pacman, nix-channels, & home-manager. This one requires no human input bar the sudo password at start.
 
     sudo pacman -Syu --noconfirm
     
