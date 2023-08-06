@@ -26,6 +26,7 @@
     ./obs-studio/obs-studio.nix
     ./onionshare/onionshare.nix
     ./qbittorrent/qbittorrent.nix
+    ./rust/rust.nix
     ./signal-desktop/signal-desktop.nix
     ./sublime-merge/sublime-merge.nix
     ./thunderbird/thunderbird.nix
