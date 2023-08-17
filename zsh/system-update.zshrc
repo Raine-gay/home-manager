@@ -29,7 +29,7 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
     
     echo
     echo "Collecting garbage:"
-    nix-collect-garbage -d
+    nix-collect-garbage
     echo
     echo "System update complete."
 }
@@ -53,8 +53,8 @@ system-update-auto() { # A simple ZSH script to update pacman, nix-channels, & h
     home-manager switch
     
     echo
-    #echo "Collecting garbage:"
-    #nix-collect-garbage -d
-    #echo
+    echo "Collecting garbage:"
+    nix-collect-garbage
+    echo
     echo "System update complete."
 }
