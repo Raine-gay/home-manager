@@ -25,6 +25,7 @@
     ./nano/nano.nix
     ./obs-studio/obs-studio.nix
     ./onionshare/onionshare.nix
+    ./PATH/PATH.nix
     ./qbittorrent/qbittorrent.nix
     ./rust/rust.nix
     ./signal-desktop/signal-desktop.nix
