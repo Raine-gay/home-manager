@@ -35,6 +35,7 @@
     ./webcord/webcord.nix
     ./wget/wget.nix
     ./xdg/xdg.nix
+    ./yt-dlp/yt-dlp.nix
     ./zsh/zsh.nix
   ];
 
