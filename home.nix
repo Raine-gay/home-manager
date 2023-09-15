@@ -15,6 +15,7 @@
     ./dbeaver/dbeaver.nix
     ./element-desktop/element-desktop.nix
     ./filezilla/filezilla.nix
+    ./freecad/freecad.nix
     ./geany/geany.nix
     ./gimp/gimp.nix
     ./git/git.nix
