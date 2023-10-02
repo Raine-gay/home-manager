@@ -14,5 +14,9 @@
       pkgs.vscode-extensions.usernamehw.errorlens # Error lens for inline errors.
       pkgs.vscode-extensions.ms-dotnettools.csharp # C# for VS code.   
     ];
+
+    userSettings = {
+      "workbench.tree.indent" = 16;
+    };
   };
 }
