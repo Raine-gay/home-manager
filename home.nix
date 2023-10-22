@@ -10,32 +10,15 @@
   imports = [ # Import modular .nix files.
     ./_machine-specific/_machine-specific.nix
 
-    ./audacity/audacity.nix
-    ./bitwarden/bitwarden.nix
-    ./dbeaver/dbeaver.nix
-    ./element-desktop/element-desktop.nix
-    ./filezilla/filezilla.nix
-    ./geany/geany.nix
-    ./gimp/gimp.nix
     ./git/git.nix
-    ./htop/htop.nix
-    ./inkscape/inkscape.nix
     ./libreoffice/libreoffice.nix
-    ./librewolf/librewolf.nix
     ./misc/misc.nix
     ./nano/nano.nix
-    ./obs-studio/obs-studio.nix
-    ./qbittorrent/qbittorrent.nix
     ./rust/rust.nix
     ./signal-desktop/signal-desktop.nix
-    ./sublime-merge/sublime-merge.nix
     ./thunderbird/thunderbird.nix
-    ./tor/tor.nix
     ./visual-studio-code/visual-studio-code.nix
-    ./webcord/webcord.nix
-    ./wget/wget.nix
     ./xdg/xdg.nix
-    ./yt-dlp/yt-dlp.nix
     ./zsh/zsh.nix
   ];
 
