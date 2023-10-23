@@ -36,8 +36,11 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
     fi
     
     echo
-    echo "Collecting garbage:"
-    nix-collect-garbage -d
+    if read -q "choice?Collect home-manager old installs: y/n"; then
+        echo "Collecting garbage:"
+        nix-collect-garbage -d
+        echo
+    fi
     echo
     echo "System update complete."
 }
