@@ -12,7 +12,8 @@
       pkgs.vscode-extensions.donjayamanne.githistory # Git history viewer
       pkgs.vscode-extensions.streetsidesoftware.code-spell-checker # Code spell checker.
       pkgs.vscode-extensions.usernamehw.errorlens # Error lens for inline errors.
-      pkgs.vscode-extensions.ms-dotnettools.csharp # C# for VS code.   
+      pkgs.vscode-extensions.ms-dotnettools.csharp # C# for VS code.
+      pkgs.vscode-extensions.ms-python.python # Add python language support.
     ];
 
     userSettings = {
