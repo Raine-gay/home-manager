@@ -18,6 +18,7 @@
 
     userSettings = {
       "workbench.tree.indent" = 16;
+      "github.gitAuthentication" = false;
     };
   };
 }
