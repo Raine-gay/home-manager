@@ -7,7 +7,7 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
         echo
 
         echo
-        if type "$paru" > /dev/null; then
+        if (( $+commands[paru] )); then
             echo
             echo "Updating AUR"
             sudo paru -Sua
@@ -50,7 +50,7 @@ system-update-auto() { # A simple ZSH script to update pacman, nix-channels, & h
     sudo pacman -Syu --noconfirm
 
     echo
-    if type "$paru" > /dev/null; then
+    if (( $+commands[paru] )); then
         echo
         echo "Updating AUR"
         sudo paru -Sua --noconfirm
