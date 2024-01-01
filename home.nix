@@ -5,7 +5,7 @@
   home.username = builtins.getEnv"USER";
   home.homeDirectory = builtins.getEnv"HOME";
 
-  home.stateVersion = "23.05";
+  home.stateVersion = "23.11";
   
   imports = [ # Import modular .nix files.
     ./_machine-specific/_machine-specific.nix
