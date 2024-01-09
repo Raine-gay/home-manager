@@ -10,7 +10,7 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
         if (( $+commands[paru] )); then
             echo
             echo "Updating AUR"
-            sudo paru -Sua
+            sudo paru -Sua --noconfirm
             echo
         fi
     fi
