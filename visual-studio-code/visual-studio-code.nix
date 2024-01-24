@@ -18,6 +18,7 @@
 
     userSettings = {
       "workbench.tree.indent" = 16;
+      "terminal.integrated.scrollback" = 5000;
     };
   };
 }
