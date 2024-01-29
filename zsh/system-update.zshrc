@@ -1,18 +1,17 @@
 system-update() { # A simple ZSH script to update pacman, nix-channels, & home-manager
 
-    echo 
-    if read -q "choice?Update base system: y/n "; then
-        echo
-        sudo pacman -Syu
-        echo
-    fi
-
     if (( $+commands[paru] )); then
-        if read -q "choice?Update AUR packages: y/n"; then
+        if read -q "choice?Update base system & AUR packages: y/n"; then
             echo
             echo "Updating AUR"
-            sudo paru -Sua --noconfirm
+            sudo paru --noconfirm
             echo
+        fi
+    else
+        if read -q "choice?Update base system: y/n "; then
+        echo
+        sudo pacman -Syu --noconfirm
+        echo
         fi
     fi
           
@@ -49,14 +48,14 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
 
 system-update-auto() { # A simple ZSH script to update pacman, nix-channels, & home-manager. This one requires no human input bar the sudo password at start.
 
-    sudo pacman -Syu --noconfirm
-
     echo
     if (( $+commands[paru] )); then
         echo
-        echo "Updating AUR"
-        sudo paru -Sua --noconfirm
+        echo "Updating base system & AUR:"
+        sudo paru --noconfirm
         echo
+    else
+        sudo pacman -Syu --noconfirm
     fi
     
     echo
