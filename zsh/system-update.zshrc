@@ -4,7 +4,7 @@ system-update() { # A simple ZSH script to update pacman, nix-channels, & home-m
         if read -q "choice?Update base system & AUR packages: y/n"; then
             echo
             echo "Updating AUR"
-            paru --noconfirm
+            paru -Syu --noconfirm
             echo
         fi
     else
@@ -52,7 +52,7 @@ system-update-auto() { # A simple ZSH script to update pacman, nix-channels, & h
     if (( $+commands[paru] )); then
         echo
         echo "Updating base system & AUR:"
-        paru --noconfirm
+        paru -Syu --noconfirm
         echo
     else
         sudo pacman -Syu --noconfirm
